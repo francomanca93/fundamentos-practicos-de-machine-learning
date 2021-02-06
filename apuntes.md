@@ -9,6 +9,7 @@
   - [Introducción al Curso](#introducción-al-curso)
   - [Introduccón a Numpy](#introduccón-a-numpy)
   - [Introducción y manipulación de datos con Pandas](#introducción-y-manipulación-de-datos-con-pandas)
+  - [Introducción a Scikit Learn](#introducción-a-scikit-learn)
 - [Regresión Lineal y Logística](#regresión-lineal-y-logística)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
@@ -38,19 +39,29 @@
 
 NumPy es un paquete de Python que significa “Numerical Python”, es la librería principal para la informática científica, proporciona potentes estructuras de datos, implementando matrices y matrices multidimensionales. Estas estructuras de datos garantizan cálculos eficientes con matrices.
 
-[Numpy apuntes de la clase en colab](1.fundamentos-practicos/numpy.ipynb)
-[Numpy Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+- [Numpy apuntes de la clase en colab](1.fundamentos-practicos/numpy.ipynb)
+
+- [Numpy Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 
 ## Introducción y manipulación de datos con Pandas
 
 Pandas (Panel Data)
 
-- Es una librería derivada de numpy pensada para el manejo de datos en forma de panel.
-- Trabaja con series, data frames y panels, generan indices a los arreglos (a manera de panel o tabla de excel), en una (Series), dos (DataFrames) o tres dimensiones (Panels)
+Es una librería derivada de numpy pensada para el manejo de datos en forma de panel. Trabaja con series, data frames y panels, generan indices a los arreglos (a manera de panel o tabla de excel), en una (Series), dos (DataFrames) o tres dimensiones (Panels)
 
-[Pandas apuntes de la clase en colab](1.fundamentos-practicos/pandas.ipynb)
-[Pandas Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
+- [Pandas apuntes de la clase en colab](1.fundamentos-practicos/pandas.ipynb)
 
+- [Pandas Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
+
+## Introducción a Scikit Learn
+
+[Scikit-Learn](https://scikit-learn.org/stable/) es una librería open-source para Python. Cuenta con algoritmos de clasificación, regresión, clustering y reducción de dimensionalidad. Además, presenta la compatibilidad con otras librerías de Python como NumPy, SciPy y matplotlib.
+
+La gran variedad de algoritmos y utilidades de Scikit-learn la convierten en la herramienta básica para empezar a programar y estructurar los sistemas de análisis datos y modelado estadístico. Los algoritmos de Scikit-Learn se combinan y depuran con otras estructuras de datos y aplicaciones externas como Pandas o PyBrain.
+
+La ventaja de la programación en Python, y Scikit-Learn en concreto, es la variedad de módulos y algoritmos que facilitan el aprendizaje y trabajo del científico de datos en las primeras fases de su desarrollo. La formación de un Máster en Data Science hace hincapié en estas ventajas, pero también prepara a sus alumnos para trabajar en otros lenguajes. La versatilidad y formación es la clave en el campo tecnológico.
+
+- [Scikit Learn cheat sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf)
 
 # Regresión Lineal y Logística
 
