@@ -7,6 +7,7 @@
 
 - [Fundamentos prácticos](#fundamentos-prácticos)
   - [Introducción al Curso](#introducción-al-curso)
+  - [Introduccón a Numpy](#introduccón-a-numpy)
 - [Regresión Lineal y Logística](#regresión-lineal-y-logística)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
@@ -32,6 +33,12 @@
   - **Construcción de un modelo y Evaluación**: Una vez definido el problema procedemos a tratar los datos y a entrenar nuestro modelo que debe tener una evaluación cercana al 100%
   - **Deploy y mejoras**: El algoritmo es llevado a producción (aplicación o entorno para el que fue creado), en este entorno podemos realizar las mejoras pertinentes de acuerdo al comportamiento con los usuario e incluso aprovechando los datos generados en esta interacción
 
+## Introduccón a Numpy
+
+NumPy es un paquete de Python que significa “Numerical Python”, es la librería principal para la informática científica, proporciona potentes estructuras de datos, implementando matrices y matrices multidimensionales. Estas estructuras de datos garantizan cálculos eficientes con matrices.
+
+[Numpy apuntes de la clase en colab](1.fundamentos-practicos/numpy.ipynb)
+[Numpy Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 
 # Regresión Lineal y Logística
 
