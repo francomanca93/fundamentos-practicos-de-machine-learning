@@ -8,6 +8,7 @@
 - [Fundamentos prácticos](#fundamentos-prácticos)
   - [Introducción al Curso](#introducción-al-curso)
   - [Introduccón a Numpy](#introduccón-a-numpy)
+  - [Introducción y manipulación de datos con Pandas](#introducción-y-manipulación-de-datos-con-pandas)
 - [Regresión Lineal y Logística](#regresión-lineal-y-logística)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
@@ -39,6 +40,17 @@ NumPy es un paquete de Python que significa “Numerical Python”, es la librer
 
 [Numpy apuntes de la clase en colab](1.fundamentos-practicos/numpy.ipynb)
 [Numpy Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+
+## Introducción y manipulación de datos con Pandas
+
+Pandas (Panel Data)
+
+- Es una librería derivada de numpy pensada para el manejo de datos en forma de panel.
+- Trabaja con series, data frames y panels, generan indices a los arreglos (a manera de panel o tabla de excel), en una (Series), dos (DataFrames) o tres dimensiones (Panels)
+
+[Pandas apuntes de la clase en colab](1.fundamentos-practicos/pandas.ipynb)
+[Pandas Cheat Sheet](http://datacamp-community-prod.s3.amazonaws.com/dbed353d-2757-4617-8206-8767ab379ab3)
+
 
 # Regresión Lineal y Logística
 
