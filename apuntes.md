@@ -12,6 +12,9 @@
   - [Introducción a Scikit Learn](#introducción-a-scikit-learn)
 - [Regresión Lineal y Logística](#regresión-lineal-y-logística)
   - [¿Qué es la predicción de datos?](#qué-es-la-predicción-de-datos)
+  - [Sobreajuste (Overfiting) y Subajuste (Underfiting) en los datos](#sobreajuste-overfiting-y-subajuste-underfiting-en-los-datos)
+    - [Sobreajunte (overfiting)](#sobreajunte-overfiting)
+    - [Subajuste (underfiting)](#subajuste-underfiting)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
 - [Aprendizaje profundo](#aprendizaje-profundo)
@@ -82,6 +85,35 @@ En el ámbito de los negocios los modelos predictivos extraen patrones de los da
 Cuando entrenamos un modelo para llevar a cabo una prueba, es importante cuidar la información que se le suministra, es decir, debemos verificar si existen datos no validos o nulos, si las series de datos esta completa, etc.
 
 [Ejemplos de aplicación en Wikipedia](https://es.wikipedia.org/wiki/An%C3%A1lisis_predictivo#Aplicaciones)
+
+## Sobreajuste (Overfiting) y Subajuste (Underfiting) en los datos
+
+La capacidad de generalización nos indica qué tan bien los conceptos aprendidos por un modelo de aprendizaje automático se aplican a ejemplos específicos que el modelo no vio cuando estaba aprendiendo. El objetivo de un buen modelo de aprendizaje automático es generalizar bien los datos de entrenamiento. Esto nos permite hacer predicciones en el futuro sobre los datos que el modelo nunca ha visto. Sobreajuste y subajuste son terminologías empleados en el aprendizaje automático para hacer referencia a qué tan bien un modelo generaliza nuevos datos ya que el ajuste excesivo y el ajuste insuficiente son las dos causas principales del rendimiento deficiente de los algoritmos de aprendizaje automático.
+
+![](https://imgur.com/ujGH5cj.png)
+
+### Sobreajunte (overfiting)
+
+El sobreajuste hace referencia a un modelo que se sobre-entrena considerando cada mínimo detalle de los datos de entrenamiento. Esto significa que el ruido o las fluctuaciones aleatorias en los datos de entrenamiento son recogidos y aprendidos como conceptos por el modelo. El problema es que estos conceptos no se aplican a nuevos datos y tienen un impacto negativo en la capacidad de los modelos para generalizar.
+
+Este sobre-entrenamiento suele darse con mayor probabilidad en modelos no lineales, por ello muchos de estos algoritmos de aprendizaje automático también incluyen parámetros o técnicas para limitar y restringir la cantidad de detalles que aprende. Algunos ejemplos de algoritmos no lineales son los siguientes:
+
+- Decision Trees
+- Naive Bayes
+- Support Vector Machines
+- Neural Networks
+
+### Subajuste (underfiting)
+
+El subajuste hace referencia a un modelo que no puede modelar los datos de entrenamiento ni generalizar a nuevos datos. Un modelo de aprendizaje automático insuficiente no es un modelo adecuado. Las estrategias para mitigar un ajuste insuficiente son variadas y dependen del contexto.
+
+Como puede deducirse, el subajuste suele darse con mayor probabilidad en modelos lineales, como por ejemplo:
+
+- Logistic Regression
+- Linear Discriminant Analysis
+- Perceptron
+
+[Overfiting y Underfiting by DotCSV](https://www.youtube.com/watch?v=7-6X3DTt3R8)
 
 # Árboles de decisión
 
