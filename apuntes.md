@@ -15,6 +15,7 @@
   - [Sobreajuste (Overfiting) y Subajuste (Underfiting) en los datos](#sobreajuste-overfiting-y-subajuste-underfiting-en-los-datos)
     - [Sobreajunte (overfiting)](#sobreajunte-overfiting)
     - [Subajuste (underfiting)](#subajuste-underfiting)
+  - [Regresión lineal simple y regresión lineal múltiple](#regresión-lineal-simple-y-regresión-lineal-múltiple)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
 - [Aprendizaje profundo](#aprendizaje-profundo)
@@ -114,6 +115,18 @@ Como puede deducirse, el subajuste suele darse con mayor probabilidad en modelos
 - Perceptron
 
 [Overfiting y Underfiting by DotCSV](https://www.youtube.com/watch?v=7-6X3DTt3R8)
+
+## Regresión lineal simple y regresión lineal múltiple
+
+El algoritmo de **regresión lineal** nos ayuda a conseguir tendencia en los datos, este es un algoritmo de tipo **supervisado** ya que debemos de usar datos previamente etiquetados.
+
+En la regresión lineal generamos, a partir de los datos, una recta y es a partir de esta que podremos encontrar la tendencia o predicción.
+
+Generalmente es importante tener en cuenta **varias dimensiones o variables** al considerar los datos que estamos suministrando al modelo, recordando siempre cuidar este set de **sobreajuste o subajuste**.
+
+Cuando nuestro modelo considera más de dos variables el algoritmo de regresión que usamos se conoce como **Regresión Lineal Múltiple** y este trabaja sobre un sistema de referencia conocido como **hiperplano**.
+
+Los algoritmos de regresión, tanto lineal como múltiple trabajan únicamente con datos de tipo cuantitativos.
 
 # Árboles de decisión
 
