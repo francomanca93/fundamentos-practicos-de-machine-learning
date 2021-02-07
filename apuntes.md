@@ -11,6 +11,7 @@
   - [Introducción y manipulación de datos con Pandas](#introducción-y-manipulación-de-datos-con-pandas)
   - [Introducción a Scikit Learn](#introducción-a-scikit-learn)
 - [Regresión Lineal y Logística](#regresión-lineal-y-logística)
+  - [¿Qué es la predicción de datos?](#qué-es-la-predicción-de-datos)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
 - [Aprendizaje profundo](#aprendizaje-profundo)
@@ -64,6 +65,23 @@ La ventaja de la programación en Python, y Scikit-Learn en concreto, es la vari
 - [Scikit Learn cheat sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf)
 
 # Regresión Lineal y Logística
+
+## ¿Qué es la predicción de datos?
+
+El análisis predictivo agrupa una variedad de técnicas estadísticas de modelización, aprendizaje automático y minería de datos (algoritmos en sí) que analiza los datos actuales e históricos reales para hacer predicciones acerca del futuro o acontecimientos no conocidos.
+
+En el ámbito de los negocios los modelos predictivos extraen patrones de los datos históricos y transaccionales para identificar riesgos y oportunidades. Los modelos predictivos identifican relaciones entre diferentes factores que permiten valorar riesgos o probabilidades asociadas sobre la base de un conjunto de condiciones, guiando así a la/s persona/as que toma decisiones durante las operaciones de la organización.
+
+**Para entrenar estos modelos/algoritmos:**
+
+1. Es importante comprender el problema que se quiere solucionar o que es lo que se quiere aplicar.
+2. Obtener un conjunto de datos para entrenar el modelo.
+3. Hay que saber que modelo es el adecuado para solucionar el problema.
+4. Se entrena un modelo supervisado o no supervisado con un histórico de datos.
+
+Cuando entrenamos un modelo para llevar a cabo una prueba, es importante cuidar la información que se le suministra, es decir, debemos verificar si existen datos no validos o nulos, si las series de datos esta completa, etc.
+
+[Ejemplos de aplicación en Wikipedia](https://es.wikipedia.org/wiki/An%C3%A1lisis_predictivo#Aplicaciones)
 
 # Árboles de decisión
 
