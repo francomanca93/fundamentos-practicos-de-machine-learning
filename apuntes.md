@@ -16,8 +16,8 @@
     - [Sobreajunte (overfiting)](#sobreajunte-overfiting)
     - [Subajuste (underfiting)](#subajuste-underfiting)
   - [Regresión lineal simple y regresión lineal múltiple](#regresión-lineal-simple-y-regresión-lineal-múltiple)
-  - [Regresión lineal simple con Scikit-Learn](#regresión-lineal-simple-con-scikit-learn)
-  - [Regresión logística con Scikit-Learn](#regresión-logística-con-scikit-learn)
+  - [Regresión lineal simple con Scikit-Learn | Predicción de salarios en función de la experiencia](#regresión-lineal-simple-con-scikit-learn--predicción-de-salarios-en-función-de-la-experiencia)
+  - [Regresión logística con Scikit-Learn | Clasificar si un paciente tiene o no diabetes](#regresión-logística-con-scikit-learn--clasificar-si-un-paciente-tiene-o-no-diabetes)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
 - [Aprendizaje profundo](#aprendizaje-profundo)
@@ -130,7 +130,7 @@ Cuando nuestro modelo considera más de dos variables el algoritmo de regresión
 
 Los algoritmos de regresión, tanto lineal como múltiple trabajan únicamente con datos de tipo cuantitativos.
 
-## Regresión lineal simple con Scikit-Learn
+## Regresión lineal simple con Scikit-Learn | Predicción de salarios en función de la experiencia
 
 Dado un conjunto de puntos, el algoritmo de regresión establecerá un modelo para ajustar la relación de dependencia entre una característica específica independiente (un valor de la variable independiente x) y el valor “resultado”correspondiente (un valor de la variable dependiente y).
 
@@ -141,11 +141,15 @@ Lo que hicimos fue:
 - División de los datos
 - Creación del modelo
 
-[Notebook del ejercicio](2.regresión-lineal-y-logistica/regresión_lineal_simple_scikitlearn.ipynb)
+--------
+- [Notebook Regresión Lineal | Predicción de salarios en función de la experiencia](2.regresión-lineal-y-logistica/regresión_lineal_simple_scikitlearn.ipynb)
+- [Dataset de salarios.csv](2.regresión-lineal-y-logistica/salarios.csv)
+
+--------
 
 [Fundamentos de la Regresión Lineal en Medium](https://medium.com/datos-y-ciencia/machine-learning-supervisado-fundamentos-de-la-regresi%C3%B3n-lineal-bbcb07fe7fd)
 
-## Regresión logística con Scikit-Learn
+## Regresión logística con Scikit-Learn | Clasificar si un paciente tiene o no diabetes
 
 La Regresión Logística es un método estadístico para predecir clases binarias. El resultado o variable objetivo es de naturaleza dicotómica. Dicotómica significa que solo hay dos clases posibles. Por ejemplo, se puede utilizar para problemas de detección de cáncer o calcular la probabilidad de que ocurra un evento.
 
@@ -156,7 +160,11 @@ En este caso utilizamos queremos predecir si una person tendrá o no diabetes en
 - Definición y división de datos
 - Evaluación del modelo, utilizando matriz de confusión.
 
-[Notebook de Regresión logística](2.regresión-lineal-y-logistica/regresión_logistica_scikitlearn_ipynb.ipynb)
+--------
+- [Notebook de Regresión logística | Clasificar si un paciente tiene o no diabetes](2.regresión-lineal-y-logistica/regresión_logistica_scikitlearn_ipynb.ipynb)
+- [Dataset de diabetes.csv](2.regresión-lineal-y-logistica/diabetes.csv)
+
+--------
 
 [Regresion Logistica - Teoria](https://aprendeia.com/regresion-logistica-multiple-machine-learning-teoria/)
 
