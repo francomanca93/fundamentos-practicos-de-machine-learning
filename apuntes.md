@@ -19,6 +19,7 @@
   - [Regresión lineal simple con Scikit-Learn | Predicción de salarios en función de la experiencia](#regresión-lineal-simple-con-scikit-learn--predicción-de-salarios-en-función-de-la-experiencia)
   - [Regresión logística con Scikit-Learn | Clasificar si un paciente tiene o no diabetes](#regresión-logística-con-scikit-learn--clasificar-si-un-paciente-tiene-o-no-diabetes)
 - [Árboles de decisión](#árboles-de-decisión)
+  - [¿Qué es un árbol de decisión?](#qué-es-un-árbol-de-decisión)
 - [K-Means](#k-means)
 - [Aprendizaje profundo](#aprendizaje-profundo)
 
@@ -169,6 +170,30 @@ En este caso utilizamos queremos predecir si una person tendrá o no diabetes en
 [Regresion Logistica - Teoria](https://aprendeia.com/regresion-logistica-multiple-machine-learning-teoria/)
 
 # Árboles de decisión
+
+## ¿Qué es un árbol de decisión?
+
+Árboles de decisión: Es una forma gráfica y analítica de representar sucesos y posibilidades
+
+![arbol](https://imgur.com/ZAKpg3P.png)
+
+- Ventajas
+  - Claridad de datos → Podemos ver claramente los caminos tomados
+  - Tolerantes al ruido y valores faltantes → Aunque no es recomendable podemos hacer nuestro análisis con ruido (con cierto éxito)
+  - Permite hacer predicciones a través de las reglas extraídas
+- Desventajas
+  - El criterio de división puede llegar a ser deficiente
+  - Se puede llegar a un sobreajuste
+  - Pueden aparecer ramas poco significativas
+- Criterios de División de un árbol de decisión:
+  - Ganancia de información
+  - Crear pequeños árboles
+- Optimización de nuestro modelo:
+  - Evitar el sobreajuste
+  - Selección de atributos → Seleccionar sólo los atributos relevantes para nuestro modelo
+  - Campos nulos → Es mejor evitar los campos nulos
+
+[Ampliando la teoria sobre arboles de decisión](https://aprendeia.com/arboles-de-decision-clasificacion-teoria-machine-learning/)
 
 # K-Means
 
