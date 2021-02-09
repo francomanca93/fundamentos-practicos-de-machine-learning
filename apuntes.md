@@ -16,6 +16,7 @@
     - [Sobreajunte (overfiting)](#sobreajunte-overfiting)
     - [Subajuste (underfiting)](#subajuste-underfiting)
   - [Regresión lineal simple y regresión lineal múltiple](#regresión-lineal-simple-y-regresión-lineal-múltiple)
+  - [Regresión lineal simple con Scikit-Learn](#regresión-lineal-simple-con-scikit-learn)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
 - [Aprendizaje profundo](#aprendizaje-profundo)
@@ -127,6 +128,21 @@ Generalmente es importante tener en cuenta **varias dimensiones o variables** al
 Cuando nuestro modelo considera más de dos variables el algoritmo de regresión que usamos se conoce como **Regresión Lineal Múltiple** y este trabaja sobre un sistema de referencia conocido como **hiperplano**.
 
 Los algoritmos de regresión, tanto lineal como múltiple trabajan únicamente con datos de tipo cuantitativos.
+
+## Regresión lineal simple con Scikit-Learn
+
+Dado un conjunto de puntos, el algoritmo de regresión establecerá un modelo para ajustar la relación de dependencia entre una característica específica independiente (un valor de la variable independiente x) y el valor “resultado”correspondiente (un valor de la variable dependiente y).
+
+Al realizar nuestro modelo con datos de trabajadores con respectivas experiencias y salarios. El objetivo es saber si a medida que el trabajador tiene mas experiencia en un campo su salario aumenta acorde a esta.
+
+Lo que hicimos fue:
+
+- División de los datos
+- Creación del modelo
+
+[Notebook del ejercicio](2.regresión-lineal-y-logistica/regresión_lineal_simple_scikitlearn.ipynb)
+
+[Fundamentos de la Regresión Lineal en Medium](https://medium.com/datos-y-ciencia/machine-learning-supervisado-fundamentos-de-la-regresi%C3%B3n-lineal-bbcb07fe7fd)
 
 # Árboles de decisión
 
