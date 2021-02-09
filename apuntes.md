@@ -17,6 +17,7 @@
     - [Subajuste (underfiting)](#subajuste-underfiting)
   - [Regresión lineal simple y regresión lineal múltiple](#regresión-lineal-simple-y-regresión-lineal-múltiple)
   - [Regresión lineal simple con Scikit-Learn](#regresión-lineal-simple-con-scikit-learn)
+  - [Regresión logística con Scikit-Learn](#regresión-logística-con-scikit-learn)
 - [Árboles de decisión](#árboles-de-decisión)
 - [K-Means](#k-means)
 - [Aprendizaje profundo](#aprendizaje-profundo)
@@ -143,6 +144,21 @@ Lo que hicimos fue:
 [Notebook del ejercicio](2.regresión-lineal-y-logistica/regresión_lineal_simple_scikitlearn.ipynb)
 
 [Fundamentos de la Regresión Lineal en Medium](https://medium.com/datos-y-ciencia/machine-learning-supervisado-fundamentos-de-la-regresi%C3%B3n-lineal-bbcb07fe7fd)
+
+## Regresión logística con Scikit-Learn
+
+La Regresión Logística es un método estadístico para predecir clases binarias. El resultado o variable objetivo es de naturaleza dicotómica. Dicotómica significa que solo hay dos clases posibles. Por ejemplo, se puede utilizar para problemas de detección de cáncer o calcular la probabilidad de que ocurra un evento.
+
+Es decir que el algoritmo de Regresión Logística se utiliza para proyectos de **clasificación**, si queremos conocer si una persona vive o no el naufragio del Titanic, o si una acción de la bolsa de valores va a subir o no.
+
+En este caso utilizamos queremos predecir si una person tendrá o no diabetes en bases a ciertos datos de personas que ya tienen diabetes como pueden ser embarazos, insulina, glucosa, presión arterial, edad, entre otras variables.
+
+- Definición y división de datos
+- Evaluación del modelo, utilizando matriz de confusión.
+
+[Notebook de Regresión logística](2.regresión-lineal-y-logistica/regresión_logistica_scikitlearn_ipynb.ipynb)
+
+[Regresion Logistica - Teoria](https://aprendeia.com/regresion-logistica-multiple-machine-learning-teoria/)
 
 # Árboles de decisión
 
