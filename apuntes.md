@@ -20,6 +20,7 @@
   - [Regresión logística con Scikit-Learn | Clasificar si un paciente tiene o no diabetes](#regresión-logística-con-scikit-learn--clasificar-si-un-paciente-tiene-o-no-diabetes)
 - [Árboles de decisión](#árboles-de-decisión)
   - [¿Qué es un árbol de decisión?](#qué-es-un-árbol-de-decisión)
+  - [Decision Tree en Scikit-Learn | Clasificar si un persona en el titanic muere o no](#decision-tree-en-scikit-learn--clasificar-si-un-persona-en-el-titanic-muere-o-no)
 - [K-Means](#k-means)
 - [Aprendizaje profundo](#aprendizaje-profundo)
 
@@ -195,6 +196,36 @@ En este caso utilizamos queremos predecir si una person tendrá o no diabetes en
 
 [Ampliando la teoria sobre arboles de decisión](https://aprendeia.com/arboles-de-decision-clasificacion-teoria-machine-learning/)
 
+## Decision Tree en Scikit-Learn | Clasificar si un persona en el titanic muere o no
+
+1. Comprendiendo nuestro data set para la creación de un árbol de decisión
+
+Utilizaremos el dataset **[Titanic](3.decision-tree/titanic-train.csv)**, el cual tiene una lista de pasajeros que se encontraron en este con diferentes caracteristicas. El objetivo es saber si el pasajero pudo o no sobrevivir.
+
+Se trabajó con un archivo previamente procesado, al cual le haremos un tratamiento simple y nos podamos enfocarn en el algoritmo en si.
+
+Tiene variedad de datos y algo de complejidad al trabajar con ellos
+
+2. Tratamiento de datos
+   - Completaremos los valores nulos
+   - Eliminamos la columnas que no consideramos necesarias.
+   - Separamos las columnas categóricas de las numéricas
+
+3. Entrenamiento del modelo de clasificación
+   - Generamos nuestras variables de entrenamiento
+   - Defino modelo
+
+4. Evaluo el modelo
+  - Utilizamos unicamente el Accuracy.
+ 
+5. Visualización del árbol de decisión.
+  - Exporto arbol de decision completo - [titanic.png](3.decision-tree/titanic.png)
+
+--------
+- [Notebook de Decision Tree en Scikit-Learn | Clasificar si un persona en el titanic muere o no](3.decision-tree/decision_trees_sklearn_clasificador.ipynb)
+- [Dataset de titanic.csv](3.decision-tree/titanic-train.csv)
+
+--------
 # K-Means
 
 # Aprendizaje profundo
