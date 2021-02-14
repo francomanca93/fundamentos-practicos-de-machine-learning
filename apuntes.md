@@ -22,6 +22,10 @@
   - [¿Qué es un árbol de decisión?](#qué-es-un-árbol-de-decisión)
   - [Decision Tree en Scikit-Learn | Clasificar si un persona en el titanic muere o no](#decision-tree-en-scikit-learn--clasificar-si-un-persona-en-el-titanic-muere-o-no)
 - [K-Means](#k-means)
+  - [¿Qué es K-Means?](#qué-es-k-means)
+    - [Pasos](#pasos)
+    - [Aplicaciones](#aplicaciones)
+    - [Método del codo](#método-del-codo)
 - [Aprendizaje profundo](#aprendizaje-profundo)
 
 # Fundamentos prácticos
@@ -226,6 +230,43 @@ Tiene variedad de datos y algo de complejidad al trabajar con ellos
 - [Dataset de titanic.csv](3.decision-tree/titanic-train.csv)
 
 --------
+
 # K-Means
+
+## ¿Qué es K-Means?
+
+Es Es un método de agrupamiento y un algoritmo no supervisado que crea **K** grupos a partir de un grupo de observaciones, es decir, agrupa información basada en sus características. Lo elementos deben de tener similitudes y tratamos con información que no tiene etiquetas asignadas.
+
+### Pasos
+
+1. Selecciona un valor para K (Centroides)
+2. Asignamos cada uno de los elementos restante al centro mas cercano.
+3. Asignamos cada punto punto a su centroide mas cercano
+4. Repetimos paso 2 y 3 hasta que los centros no se modifiquen.
+
+![k-means-gif](https://imgur.com/L8IdBDe.png)
+
+### Aplicaciones
+
+- Segmentación por comportamiento:
+  - por historial de compras
+  - actividad en una aplicación móvil, web
+  - definir personas basadas en sus intereses.
+  - crear perfiles basado en el monitoreo de actividad.
+
+- Ordenando medidas de sensores:
+  - Detecta tipos de actividades en sensores de movimiento.
+  - Grupos de imágenes.
+  - Separar audio.
+  - Identificar grupos en monitoreo de salud.
+
+### Método del codo
+
+El punto en el que se observa ese cambio brusco en la inercia nos dirá el número óptimo de Clusters a seleccionar para ese data set; o dicho de otra manera: el punto que representaría al codo del brazo será el número óptimo de Clusters para ese data set.
+
+![elbow-method](https://imgur.com/DvOkXET.png)
+
+- Calcula el agrupamiento para diferentes de K
+- El error al cuadrado para cada punto es el cuadrado de las distancia del punto desde su centro.
 
 # Aprendizaje profundo
