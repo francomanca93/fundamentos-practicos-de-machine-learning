@@ -26,6 +26,7 @@
     - [Pasos](#pasos)
     - [Aplicaciones](#aplicaciones)
     - [Método del codo](#método-del-codo)
+  - [K-Means en Scikit-Learn | Clusterizacion de flores con dataset Iris](#k-means-en-scikit-learn--clusterizacion-de-flores-con-dataset-iris)
 - [Aprendizaje profundo](#aprendizaje-profundo)
 
 # Fundamentos prácticos
@@ -268,5 +269,40 @@ El punto en el que se observa ese cambio brusco en la inercia nos dirá el núme
 
 - Calcula el agrupamiento para diferentes de K
 - El error al cuadrado para cada punto es el cuadrado de las distancia del punto desde su centro.
+
+## K-Means en Scikit-Learn | Clusterizacion de flores con dataset Iris
+
+Trabajaremos con el dataset Iris, contenido en Scikit Learn, el cual importamos con `from sklearn import datasets`. 
+
+En el tenemos 3 especies Virginia, Versicolo y Setosa. Aunque vamos a suponer que no lo sabemos de antemano. Los grupos que querremos encontrar serán de estas especies.
+
+Sabemos que hay 50 muestras de cada especie y tenemos como dato el largo y el ancho del sépalo y del pétalo.
+
+Vamos a entrenar a nuestro algoritmo a partir de las similitudes que tenemos.
+
+Lo importante es saber cuales de ellos se acercan mas hacia las **similitudes** y que nos cree justamente los **centroides** correspondiente, que es lo que hace **K-Means**.
+
+Pasos:
+
+1. Cargamos el dataset Iris.
+
+- Exploramos el dataset, conocemos sus datos, hacemos un scatter plot con los datos.
+
+2. Construimos el modelo.
+
+- Utilizamos el método del codo para encontrar el numero optimo de clusters.
+- Construimos el modelo propiamente dicho, con los clusters encontrados.
+
+3. Evaluamos nuestro modelo.
+
+- Utilizamos la métrica **accuracy** o precisión.
+
+4. Gráficamos el modelo
+
+--------
+- [Notebook de K-Means en Scikit-Learn | Clusterizacion de flores con dataset Iris](4.k-means/k_means_sklearn_clustering_iris.ipynb)
+- [Dataset de Iris](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+--------
 
 # Aprendizaje profundo
